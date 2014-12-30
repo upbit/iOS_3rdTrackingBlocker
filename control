@@ -1,0 +1,9 @@
+Package: com.zzz.3rdtrackingblocker
+Name: 3rdTrackingBlocker
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: 3rd SDK Tracking Blocker
+Maintainer: Zhou Hao
+Author: Zhou Hao
+Section: Tweaks
