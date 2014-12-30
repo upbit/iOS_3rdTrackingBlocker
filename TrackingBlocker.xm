@@ -50,10 +50,14 @@
 %ctor {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 
-	NSLog(@"3rd SDK TrackingBlocker - Loaded");
+	NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
+	if (bundleIdentifier) {
+		NSLog(@"3rd SDK TrackingBlocker - Loaded");
 
-	%init(MobClick);
-	%init(MTA);
+		%init(MobClick);
+		%init(MTA);
+
+	}
 
 	[pool drain];
 }
