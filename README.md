@@ -6,6 +6,10 @@ iOS_3rdTrackingBlocker
 1. MobClick (3.1.9)
 2. MTA (1.4.1)
 
+编译好的deb下载：[com.zzz.3rdtrackingblocker_1.0_iphoneos-arm.deb](http://blog.imaou.com/uploads/com.zzz.3rdtrackingblocker_1.0_iphoneos-arm.deb)
+
+----------
+
 禁用后输出如下：
 
 ### MobClick (UMeng)
