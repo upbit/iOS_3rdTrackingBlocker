@@ -17,6 +17,15 @@
 @property(assign) BOOL debugEnable;
 @end
 
+@interface MTAWXOConfig : NSObject {}
+@property(assign) BOOL statEnable;
+@property(assign) BOOL debugEnable;
+@end
+
+@interface MTA4QCConfig : NSObject {}
+@property(assign) BOOL statEnable;
+@property(assign) BOOL debugEnable;
+@end
 
 #pragma mark - MobClick Hooks
 
@@ -40,6 +49,16 @@
 %hook MTAConfig
 - (BOOL)debugEnable { return YES; }
 - (BOOL)statEnable { return NO; }		// disable MTA
+%end
+
+%hook MTAWXOConfig
+- (BOOL)debugEnable { return YES; }
+- (BOOL)statEnable { return NO; }       // disable MTAWXO
+%end
+
+%hook MTA4QCConfig
+- (BOOL)debugEnable { return YES; }
+- (BOOL)statEnable { return NO; }       // disable MTAWXO
 %end
 
 %end	// end of MTA
