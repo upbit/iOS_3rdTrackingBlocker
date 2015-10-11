@@ -7,7 +7,7 @@ iOS 3rd Tracking Blocker
 2. [v1.0] MTA (1.4.1)
 3. [v1.1] MTAWXO / MTA4QC(?)
 
-编译好的deb下载：[com.zzz.3rdtrackingblocker_1.0_iphoneos-arm.deb](http://blog.imaou.com/uploads/com.zzz.3rdtrackingblocker_1.0_iphoneos-arm.deb)
+编译好的deb下载：[com.zzz.3rdtrackingblocker_1.1_iphoneos-arm.deb](http://blog.imaou.com/uploads/com.zzz.3rdtrackingblocker_1.1_iphoneos-arm.deb)
 
 ----------
 
